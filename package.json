@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run clean && ng build --configuration=production",
+    "build": "ng build --configuration=production",
     "serve:ssr:CategoriaProductos": "node dist/categoria-productos/server/server.mjs"
   },
   "private": true,
