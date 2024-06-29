@@ -3,7 +3,6 @@ import { Product } from '../../../models/producto.categoria';
 import { ProductoService } from '../../../services/producto/producto.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { error } from 'console';
 
 @Component({
   selector: 'app-detalle-producto',
